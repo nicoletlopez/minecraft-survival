@@ -285,3 +285,10 @@ java.lang.NullPointerException: null
 [10:59:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [MsAdobo: Set the time to 10000]
 [10:59:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: MsAdobo lost connection: Disconnected
 [10:59:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: MsAdobo left the game
+[11:00:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:00:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[11:00:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[11:00:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[11:00:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[11:00:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:00:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
