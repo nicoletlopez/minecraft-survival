@@ -1,7 +1,9 @@
 # minecraft-survival
 A modded minecraft server
 
-Reference: https://www.minecraft.net/en-us/download/server/
+References: 
+* https://www.minecraft.net/en-us/download/server/
+* http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html
 
 ```java -Xmx1024M -Xms1024M -jar forge-1.12.2-14.23.5.2768-universal.jar nogui```
 
