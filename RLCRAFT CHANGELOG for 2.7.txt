@@ -1,0 +1,103 @@
+RLCraft v2.7 (Quality Of Life Update)
+
+IS IT SAFE TO UPDATE OLD WORLDS?  SHORT ANSWER, YES, BUT SCROLL TO BOTTOM OF CHANGELOG FOR MORE INFO!
+
+YOU CAN KEEP CURRENT KEYBINDS AND SETTINGS BY COPYING OVER YOUR OPTIONS.TXT FILE IN THE PROFILE FOLDER BEFORE UPDATING!
+
+New Custom Menu!
+  -Massive thank you to flyingperson23 creating an all new look for RLCraft!  custom main menu and buttons, custom loading screen and window icon!
+
+Lycanites Mobs UPDATE!
+  -Summoning focus and spirit recharge rate dramatically reduced (back to how it used to be in v2.5 RLCraft, thank you Lycanite adding these options back in on request!).
+  -Allows rare subspecies (like Lunar Grue) to naturally despawn now (again thank you Lycanite for adding this feature on request!).
+  -Fixed crash when attacking with certain Lycanite weapons that try to turn the player invisible.
+  -Blacklisted Lycanite blocks from being able to be picked up using Carry On to fix a few bugs with that.
+  -Slightly lowered spawn rate of banshees in mineshafts.
+
+No Tree Punching UPDATE!
+  -Fixes a crash when fire would destroy log blocks.
+  -Fixes silk touch not working on things like Stone and Leaves.
+  -Attack damages of iron/gold/diamond knives were lowered, allowing me to re-enable them.
+  -Fixes custom wood not working with No Tree Punching recipes (Fir wood and Tenebra wood can now be chopped with an axe!).
+  -Disabled Small Ceramic Vessel due to technically infinite storage (vessels inside vessels).
+  -Fixes a crash when trying to place a ceramic vessel inside of itself (small vessels are disabled anyway now, recommend you take any items out of them before updating).
+  -Fixes some wood saw recipes found in the second pass overriding others which fixes a bug where oak planks recipe would be removed if traverse was present (as it's fir logs were caught in the second pass).
+  -Removed plant fiber drops from tall flowers which fixes duplication bug / infinite plant fiber.
+  -Improved detection of axes for the purposes of chopping.  Ore dictionary values for `toolAxe` and `toolWeakAxe` should no longer be necessary (although they will still work). Only current known problem is with Ice and Fire, they have fixed this on their end, just waiting for an update to be released.
+  -Birch wood to paper recipe had to be changed to 2 birch wood = 4 paper now due to NPT update conflict.
+
+Bountiful Baubles UPDATE!
+  -new update adds a teleport request system for wormhole potions - target players must now accept the teleport in order for it to occur.  Requests will expire after 20 seconds.
+
+Spartan Weaponry UPDATE!
+  -Semi-fix: Extended Reach now works on other mouse button keybinds. Keyboard keybinds will still not work however.
+  -Adds new Crosshairs for the Crossbow (which displays inaccuracy) and Throwing Weapons (which displays charge).
+  -Balance Changes: Reduced damage multiplier for the Caestus to 0.5, so the Studded Caestus only does 3 damage per hit.
+  -Increased the damage resistance time when a weapon using the Quick Strike (i.e. the Caestus) to 15 ticks (5 ticks before mob can he hit again) to prevent auto-clicker spam (spamming caestus too fast now will result in no damage being done).
+
+Sit UPDATE!
+  -Sitting now only works when you're not already sitting somewhere..
+  -Sitting now only works when you right click the top of a slab/stair block.
+  -Fixes sitting being possible on slabs/stairs that have a block above them, causing suffocation damage
+
+Wearable Backpacks UPDATE!
+  -Various fixes, including explosion dupe bug, better stability, etc.
+
+Potion Fingers UPDATE!
+  -On request, Pyrofab has fixed some issues in the original Potion Fingers mod.  Potion Fingers will now be replaced with Potion Fingers REDUX to fix the following issues:
+  -Fixed potion effects not properly being removed.
+  -Slightly modified the recipes to make these a bit more difficult to obtain early on, as they proved to be slightly OP (especially regen ring).
+  -Potion Fingers REDUX uses the same ID names as Potion Fingers, so you will not lose any Potion Finger rings you've already created!
+
+XP Book changed to XP Tome!
+  -A reworked version of the xp book mod by bl4ckscor3 on request specifically for RLCraft!
+  -Fixes XP dupe bug
+  -Fixes using the book/tome causing enchantments to re-roll on an enchanting table
+  -XP Tome uses the same ID names as XP Book, so you will not lose any XP Books you've already created!
+
+Minor Generation Tweaks!
+  -Fixed a bunch of generations generating at the wrong Y level, causing uneven terrain (mostly noticeable in ocean generations where the water didn't line up) This may fix a number of things spawning in the sky as well, but it can still happen.
+  -Slightly lowered spawn chance for Three Towers wizard tower generation.
+  -Slightly lowered spawn chance for the giant oak mushroom shaped tree.
+
+Everything Else!:
+  -Multimine updated to latest version.
+  -CompatSkills updated to latest version.
+  -Switch Bow updated to latest version.
+  -Enhanced Visuals updated to latest version, fixes hot/cold overlay effect flickering when holding items or in other menus.
+  -Forgotten Items updated to latest version, fixes a rare crash and adds cooldowns for wind and ender talisman
+  -Fixed Forgotten Items using non-vanilla items in the crafting recipes for runes (all runes should be craftablable now and the recipe won't pick an item that cannot be crafted).
+  -Blacklisted backpacks from Fancy Block Particles to try and prevent a bug/crash.
+  -Fixed dupe glitch with smelting shovels and the smelting proficiency skill, shovels will now give 4 nuggets backs instead of an ingot, diamond shovels will use diamond coins from varied commodities in place of nuggets, 9 diamond coins make 1 diamond, and 1 diamond can be broken into 9 diamond coins.
+  -Fixed Umbrium shovel not being smeltable.
+  -Regenerated Ruins.txt and disabled stick showing nbt data when hitting a block with a stick.
+  -Modified dagger recipe as it conflicts with knife recipe, daggers are now 1 stick and 1 ingot placed diagonally above the stick, instead of directly above.
+  -Disabled Multishot enchantment to fix dupe bug.
+  -Removed fairy ring and dwarf ring as potential drops from infernal mobs, now only findable in doomlike dungeons.
+  -Disabled recurrent complex posting its status every time entering the world.
+  -Blacklisted Slimes from Carry On to prevent dupe bug (you can no longer pickup slimes).
+  -Blacklisted Backpacks and Doors from working with multimine (fixes door dupe bug and may fix a crash with backpacks).
+  -Allowed full jump with fairy/dwarf ring.
+  -Manually fixed saw recipes with latest 2.0.18 No Tree Punching with CraftTweaker script.
+  -Saw + Planks now gives 4 sticks (was 2).
+  -Myrmex armor and tools, flamed and iced dragonbone weapons, tide armor, and neptunium armor and tools can now all be reforged on a reforging station (still cannot be repaired currently on an anvil, next update with ice n fire will fix that)
+  -Added BacoDifficulty, made for RLCraft, to prevent certain things like command blocks from structures that generate accidentally setting the difficulty to peaceful and turning off the daylight cycle.  Big thanks Kristi7111!
+  -Dragons are still assholes.
+
+IS IT SAVE TO UPDATE MY WORLD GOING FROM:
+
+2.6.3 TO 2.7
+  -Yes, no conflicts or major changes, your world will load with no issues
+
+2.6.2 to 2.7
+  -Yes, however due to necessary roll back of Ice n Fire, dragonsteel items will vanish, and opening a dragon beastiary book in 2.7 that was made in 2.6.2 will crash your client.  Simple fix is to toss the beastiary away (throw it in lava) and make a fresh one.
+
+2.5 to 2.7
+  -Yes, however because of the update to Lycanites with the prefix change, upon loading your world you will see missing entries.  This is fine, click yes to continue (servers need to do /fml confirm).  If you had lycanite items, most will be missing until you re-obtain them.  Lycanite dungeons that had generated will vanish, but new ones will be able to generate if you explore new terrain.  Doomlike Dungeons may have empty spawners because of the lycanites name change, but new Doomlike Dungeons that generate will be fine.
+
+Also yes I know about the new Ice n Fire update 1.8.2, but I cannot include it in this version just yet as it only just came out and it will require a lot of testing and tweaking to get working with RLCraft correctly.  This version could not be delayed any further as 2.7 fixes some major issues once again, so Ice n Fire 1.8.2 will be coming in RLCraft v2.8!
+
+KNOWN ISSUES:
+  -Some structures will still be floating, I know.
+  -Recurrent Complex has a memory leak after running a world for a long period of time (mostly servers have to worry about this) you can avoid be deleting the "reccomplex-structuredata.dat" file located in your "World/Data" folder.  You can also set this file to read-only, to prevent it from being written to.  No bad side effects, it's only to save positional data which isn't needed for survival worlds
+  -Old worlds will still show debug info when hitting things with a stick.  This is because the ruins config loads into the world folder.  You can replace "ruins.txt" located in your World folder with the new "ruins.txt" found in the Config folder.

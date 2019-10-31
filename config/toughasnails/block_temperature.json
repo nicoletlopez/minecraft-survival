@@ -6,7 +6,7 @@
         "burning": "true"
       }
     },
-    "temperature": 5.0
+    "temperature": 7.0
   },
   {
     "state": {
@@ -31,9 +31,23 @@
   },
   {
     "state": {
+      "block": "lycanitesmobs:purelava",
+      "properties": {}
+    },
+    "temperature": 15.0
+  },
+  {
+    "state": {
       "block": "minecraft:magma",
       "properties": {}
     },
     "temperature": 12.5
+  },
+  {
+    "state": {
+      "block": "campfire:campfire",
+      "properties": {}
+    },
+    "temperature": 7.0
   }
 ]

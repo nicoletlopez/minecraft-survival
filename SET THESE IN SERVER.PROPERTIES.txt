@@ -1,0 +1,6 @@
+Please set the following in your server.properties files when it generates, for stability and compatibility:
+
+allow-flight=true
+difficulty=3
+max-tick-time=-1
+view-distance=6
